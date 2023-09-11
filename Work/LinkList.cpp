@@ -45,6 +45,7 @@ void myinsertTail(struct node *head, int insData)
 {
     /*在此处完成任务，在head为表头的单链表表尾插入数据元素insData*/
     // begin
+    //demo
     struct node *newNode;
     newNode = new node;
     newNode->data = insData;
@@ -62,6 +63,7 @@ void myprintList(struct node *L)
 {
     /*在此处完成任务，输出L为表头链表中的数据，每输出一个数据换一行*/
     // begin
+    //test
     struct node *p = L;
     p = p->next;
     while (p->next != NULL)
